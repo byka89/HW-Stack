@@ -26,7 +26,7 @@ def is_balance(lis):
 if __name__ == '__mine__':
 
     s = Stack()
-    lis = input('Укажите последавательность: ')
+    lis = input('Укажите последовательность: ')
     if is_balance(lis) == True and s.is_empty():
         print('Сбалансированно!')
     else:
